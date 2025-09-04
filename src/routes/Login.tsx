@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import {
     Card,
-    CardAction,
     CardContent,
     CardFooter,
     CardHeader,
@@ -16,11 +15,8 @@ export function CardLogin() {
             <div className="w-full max-w-sm p-8 bg-white rounded-lg shadow-md space-y-6">
                 <CardHeader className="flex justify-between items-center">
                     <CardTitle className="text-lg font-semibold">Login to your account</CardTitle>
-                    <CardAction>
-                        <a href="/SignUp" className="text-sm underline-offset-4 hover:underline">
-                            Sign Up
-                        </a>
-                    </CardAction>
+
+
                 </CardHeader>
 
                 <CardContent>
